@@ -1,0 +1,6 @@
+# gitignore for Advent of Code 2025
+
+inputs/*
+__pycache__
+.vscode
+.venv
