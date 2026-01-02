@@ -8,7 +8,7 @@ def generate_invalid_ids(max_val: int) -> set[int]:
 
     for pattern_len in range(1, max_digits // 2 + 1):
         start_pat = 10 ** (pattern_len - 1)
-        end_pat = 10**pattern_len
+        end_pat = 10 ** pattern_len
 
         for pat in range(start_pat, end_pat):
             pat_str = str(pat)
